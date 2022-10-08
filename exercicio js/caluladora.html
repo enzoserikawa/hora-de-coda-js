@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<section>
+
+<input type="number" name="" id="number_one" value="">
+<input type="number" name="" id="number_two" value="">
+
+</section>
+
+
+<input type="button" value="+" onclick="calcular('soma')">
+<input type="button" value="-" onclick="calcular('subtracao')">
+<input type="button" value="*" onclick="calcular('multiplicacao')">
+<input type="button" value="/" onclick="calcular('divisao')">
+<input type="button" value="retangulo" onclick="calcular('multiplicacao')">
+<input type="button" value="quadrado" onclick="quadrado()">
+<input type="button" value="paralelogramo" onclick="calcular('multiplicacao')">
+<input type="button" value="triangulo" onclick=" triangulo()">
+
+
+
+
+<section>
+    <br>
+    <input type="number" id="poligonoOne" value="" placeholder="Primeiro Operador Poligono">
+    <input type="number" id="poligonoTwo" value="" placeholder="Segundo Operador Poligono">
+    <input type="number" id="poligonoThree" value="" placeholder="Terceiro Operador Poligono">
+    <output id="poligonoResultado"></output>
+</section>
+<section>
+    <br>
+    <input type="button" id="calculator" onclick="losangulo()" value="Losango">
+    <input type="button" id="calculator1" onclick="trapezio()" value="Trapezio">
+</section>
+
+<script type="text/javascript">
+    var raio = parseFloat( prompt("Raio do circulo: ") );
+
+    document.write("Comprimento da circunferencia = ", 2 * Math.PI * raio, "<br>");
+    document.write("Area da circunferencia  = ", Math.PI * Math.pow(raio, 2));
+   </script>
+
+<script src="calculadora-1.js"></script>

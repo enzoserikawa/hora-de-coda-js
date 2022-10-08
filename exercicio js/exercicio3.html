@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <input
+    type="text"
+    name=""
+    id="Username"
+    onchange="nomedousuario()"
+    placeholder="seu nome"
+  />
+
+  <script>
+    function nomedousuario() {
+      var username = document.getElementById("Username").value;
+      alert("ola, " + username) ;
+      myfunction(username);
+
+    }
+    function myfunction(username) {
+      var x;
+      var idade = prompt("Digite sua idade")
+      alert("ola, " + username + ' sua idade e '+ idade);
+    }
+
+  </script>
+</html>
